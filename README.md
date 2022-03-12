@@ -207,5 +207,20 @@ who@gmail.com 4ba87acc46d6b6dc56b706d9a6a6b9e706b9b6868689594979b6070c66a61696b9
 Right!
 [Finished in 513ms]
 ```
+## Parallel...
+
+```python
+from explict import parallel
+
+@parallel
+def a(b):
+    print(b)
+
+for i in range(100):
+    a(i)
+
+```
+
+
 ## More Comming Soon...
 #### Video comming soon..
